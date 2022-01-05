@@ -606,6 +606,7 @@ extension Key: CustomStringConvertible {
         case .rightArrow: return "→"
         case .downArrow: return "↓"
         case .upArrow: return "↑"
+	case .application: return "Application"
         }
     }
 }
