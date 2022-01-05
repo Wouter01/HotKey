@@ -143,6 +143,9 @@ public enum Key {
     case mute
 	
     case application
+    case jisEisu
+    case jisKana
+    case keypadComma
 
     // MARK: - Initializers
 
@@ -503,7 +506,6 @@ public enum Key {
 		case .jisEisu: return 0x66
 		case .jisKana: return 0x68
 		case .keypadComma: return 0x5f
-		case .help: return 0x72
 		}
 	}
 }
@@ -614,7 +616,6 @@ extension Key: CustomStringConvertible {
 	case .jisEisu: return "JIS Eisu"
 	case .jisKana: return "JIS Kana"
 	case .keypadComma: return "Keypad Comma"
-	case .help: return "Help"
         }
     }
 }
