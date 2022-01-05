@@ -500,6 +500,10 @@ public enum Key {
 		case .downArrow: return UInt32(kVK_DownArrow)
 		case .upArrow: return UInt32(kVK_UpArrow)
 		case .application: return 0x6E
+		case .jisEisu: return 0x66
+		case .jisKana: return 0x68
+		case .keypadComma: return 0x5f
+		case .help: return 0x72
 		}
 	}
 }
@@ -607,6 +611,10 @@ extension Key: CustomStringConvertible {
         case .downArrow: return "↓"
         case .upArrow: return "↑"
 	case .application: return "Application"
+	case .jisEisu: return "JIS Eisu"
+	case .jisKana: return "JIS Kana"
+	case .keypadComma: return "Keypad Comma"
+	case .help: return "Help"
         }
     }
 }
