@@ -141,6 +141,8 @@ public enum Key {
     case volumeUp
     case volumeDown
     case mute
+	
+    case application
 
     // MARK: - Initializers
 
@@ -497,6 +499,7 @@ public enum Key {
 		case .rightArrow: return UInt32(kVK_RightArrow)
 		case .downArrow: return UInt32(kVK_DownArrow)
 		case .upArrow: return UInt32(kVK_UpArrow)
+		case .application: return 0x6E
 		}
 	}
 }
